@@ -1,90 +1,370 @@
 [
   {
-    "file": "music_safe/track-001.mp3",
+    "file": "music_safe/track-013.mp3",
+    "title": "Happiness",
+    "artist": "A. Cooper",
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "A. Cooper - Happiness - TODO LICENSE"
+  },
+  {
+    "file": "music_safe/track-014.mp3",
+    "title": "Can’t Wait Till I Graduate",
+    "artist": "Andrey Petrov",
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Andrey Petrov - Can’t Wait Till I Graduate - TODO LICENSE"
+  },
+  {
+    "file": "music_safe/track-015.mp3",
     "title": "Guilty are the clouds 2",
     "artist": "Andrey Petrov",
-    "license": "CC BY 4.0",
-    "source": "https://freemusicarchive.org/music/andrey-petrov/",
-    "attribution": "Andrey Petrov - Guilty are the clouds 2 - CC BY 4.0"
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Andrey Petrov - Guilty are the clouds 2 - TODO LICENSE"
   },
   {
-    "file": "music_safe/track-002.mp3",
+    "file": "music_safe/track-016.mp3",
     "title": "I won't hear the wind's tale",
     "artist": "Andrey Petrov",
-    "license": "CC BY 4.0",
-    "source": "https://freemusicarchive.org/music/andrey-petrov/single/i-wont-hear-the-winds-tale/",
-    "attribution": "Andrey Petrov - I won't hear the wind's tale - CC BY 4.0"
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Andrey Petrov - I won't hear the wind's tale - TODO LICENSE"
   },
   {
-    "file": "music_safe/track-003.mp3",
+    "file": "music_safe/track-017.mp3",
     "title": "Who said",
     "artist": "Andrey Petrov",
-    "license": "CC BY 4.0",
-    "source": "https://freemusicarchive.org/music/andrey-petrov/single/who-said/",
-    "attribution": "Andrey Petrov - Who said - CC BY 4.0"
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Andrey Petrov - Who said - TODO LICENSE"
   },
   {
-    "file": "music_safe/track-004.mp3",
-    "title": "Winter (Зима)",
+    "file": "music_safe/track-018.mp3",
+    "title": "You’ve got to be kidding",
     "artist": "Andrey Petrov",
-    "license": "CC BY 4.0",
-    "source": "https://freemusicarchive.org/music/andrey-petrov/",
-    "attribution": "Andrey Petrov - Winter (Зима) - CC BY 4.0"
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Andrey Petrov - You’ve got to be kidding - TODO LICENSE"
   },
   {
-    "file": "music_safe/track-005.mp3",
+    "file": "music_safe/track-019.mp3",
     "title": "Зажигай, веселись",
     "artist": "Andrey Petrov",
-    "license": "CC BY 4.0",
-    "source": "https://freemusicarchive.org/music/andrey-petrov/",
-    "attribution": "Andrey Petrov - Зажигай, веселись - CC BY 4.0"
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Andrey Petrov - Зажигай, веселись - TODO LICENSE"
   },
   {
-    "file": "music_safe/track-006.mp3",
+    "file": "music_safe/track-020.mp3",
+    "title": "Закроем окна",
+    "artist": "Andrey Petrov",
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Andrey Petrov - Закроем окна - TODO LICENSE"
+  },
+  {
+    "file": "music_safe/track-021.mp3",
     "title": "И виноваты облака",
     "artist": "Andrey Petrov",
-    "license": "CC BY 4.0",
-    "source": "https://freemusicarchive.org/music/andrey-petrov/",
-    "attribution": "Andrey Petrov - И виноваты облака - CC BY 4.0"
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Andrey Petrov - И виноваты облака - TODO LICENSE"
   },
   {
-    "file": "music_safe/track-007.mp3",
+    "file": "music_safe/track-022.mp3",
     "title": "Рано-рано",
     "artist": "Andrey Petrov",
-    "license": "CC BY 4.0",
-    "source": "https://freemusicarchive.org/music/andrey-petrov/single/rano-rano/",
-    "attribution": "Andrey Petrov - Рано-рано - CC BY 4.0"
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Andrey Petrov - Рано-рано - TODO LICENSE"
   },
   {
-    "file": "music_safe/track-008.mp3",
+    "file": "music_safe/track-023.mp3",
     "title": "Сквозь тонкие шторы струится рассвет",
     "artist": "Andrey Petrov",
-    "license": "CC BY 4.0",
-    "source": "https://freemusicarchive.org/music/andrey-petrov/",
-    "attribution": "Andrey Petrov - Сквозь тонкие шторы струится рассвет - CC BY 4.0"
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Andrey Petrov - Сквозь тонкие шторы струится рассвет - TODO LICENSE"
   },
   {
-    "file": "music_safe/track-009.mp3",
+    "file": "music_safe/track-024.mp3",
     "title": "Тихо капает дождик с утра",
     "artist": "Andrey Petrov",
-    "license": "CC BY 4.0",
-    "source": "https://freemusicarchive.org/music/andrey-petrov/",
-    "attribution": "Andrey Petrov - Тихо капает дождик с утра - CC BY 4.0"
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Andrey Petrov - Тихо капает дождик с утра - TODO LICENSE"
   },
   {
-    "file": "music_safe/track-010.mp3",
+    "file": "music_safe/track-025.mp3",
     "title": "Я не увижу сказки ветра (RUS)",
     "artist": "Andrey Petrov",
-    "license": "CC BY 4.0",
-    "source": "https://freemusicarchive.org/music/andrey-petrov/",
-    "attribution": "Andrey Petrov - Я не увижу сказки ветра (RUS) - CC BY 4.0"
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Andrey Petrov - Я не увижу сказки ветра (RUS) - TODO LICENSE"
   },
   {
-    "file": "music_safe/track-011.mp3",
+    "file": "music_safe/track-026.mp3",
+    "title": "Deep Red Love",
+    "artist": "Avantist",
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Avantist - Deep Red Love - TODO LICENSE"
+  },
+  {
+    "file": "music_safe/track-027.mp3",
+    "title": "We Are Canucks",
+    "artist": "David Blair",
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "David Blair - We Are Canucks - TODO LICENSE"
+  },
+  {
+    "file": "music_safe/track-028.mp3",
+    "title": "I Think From Now On",
+    "artist": "Elephant Funeral",
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Elephant Funeral - I Think From Now On - TODO LICENSE"
+  },
+  {
+    "file": "music_safe/track-029.mp3",
+    "title": "Slow and Steady",
+    "artist": "Elephant Funeral",
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Elephant Funeral - Slow and Steady - TODO LICENSE"
+  },
+  {
+    "file": "music_safe/track-030.mp3",
+    "title": "The Dream and the Dreamer",
+    "artist": "Elephant Funeral",
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Elephant Funeral - The Dream and the Dreamer - TODO LICENSE"
+  },
+  {
+    "file": "music_safe/track-031.mp3",
+    "title": "You Are My Sunshine (1)",
+    "artist": "HoliznaCC0",
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "HoliznaCC0 - You Are My Sunshine (1) - TODO LICENSE"
+  },
+  {
+    "file": "music_safe/track-032.mp3",
+    "title": "You Are My Sunshine",
+    "artist": "HoliznaCC0",
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "HoliznaCC0 - You Are My Sunshine - TODO LICENSE"
+  },
+  {
+    "file": "music_safe/track-033.mp3",
+    "title": "Someone Real - Jenna Jay",
+    "artist": "Jenna Jay",
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Jenna Jay - Someone Real - Jenna Jay - TODO LICENSE"
+  },
+  {
+    "file": "music_safe/track-034.mp3",
+    "title": "Good Ol' Days",
+    "artist": "JMHBM",
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "JMHBM - Good Ol' Days - TODO LICENSE"
+  },
+  {
+    "file": "music_safe/track-035.mp3",
+    "title": "Everthing He Touches SCAT",
+    "artist": "Lopkerjo",
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Lopkerjo - Everthing He Touches SCAT - TODO LICENSE"
+  },
+  {
+    "file": "music_safe/track-036.mp3",
+    "title": "No Kings Blues",
+    "artist": "Lopkerjo",
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Lopkerjo - No Kings Blues - TODO LICENSE"
+  },
+  {
+    "file": "music_safe/track-037.mp3",
+    "title": "Seize the Day Blues",
+    "artist": "Lopkerjo",
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Lopkerjo - Seize the Day Blues - TODO LICENSE"
+  },
+  {
+    "file": "music_safe/track-038.mp3",
+    "title": "Kids at play",
+    "artist": "LowLevA",
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "LowLevA - Kids at play - TODO LICENSE"
+  },
+  {
+    "file": "music_safe/track-039.mp3",
+    "title": "Kick Back",
+    "artist": "Mahogany Marie",
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Mahogany Marie - Kick Back - TODO LICENSE"
+  },
+  {
+    "file": "music_safe/track-040.mp3",
+    "title": "Autopsy",
+    "artist": "Oh Yeah, the Future",
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Oh Yeah, the Future - Autopsy - TODO LICENSE"
+  },
+  {
+    "file": "music_safe/track-041.mp3",
+    "title": "First Glance",
+    "artist": "Oh Yeah, the Future",
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Oh Yeah, the Future - First Glance - TODO LICENSE"
+  },
+  {
+    "file": "music_safe/track-042.mp3",
+    "title": "Lackadaisical",
+    "artist": "Oh Yeah, the Future",
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Oh Yeah, the Future - Lackadaisical - TODO LICENSE"
+  },
+  {
+    "file": "music_safe/track-043.mp3",
+    "title": "Lovedreams",
+    "artist": "Oh Yeah, the Future",
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Oh Yeah, the Future - Lovedreams - TODO LICENSE"
+  },
+  {
+    "file": "music_safe/track-044.mp3",
+    "title": "New Brave Face",
+    "artist": "Oh Yeah, the Future",
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Oh Yeah, the Future - New Brave Face - TODO LICENSE"
+  },
+  {
+    "file": "music_safe/track-045.mp3",
+    "title": "Snowday",
+    "artist": "Oh Yeah, the Future",
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Oh Yeah, the Future - Snowday - TODO LICENSE"
+  },
+  {
+    "file": "music_safe/track-046.mp3",
+    "title": "A Serpent I Did Hear",
+    "artist": "Pierce Murphy",
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Pierce Murphy - A Serpent I Did Hear - TODO LICENSE"
+  },
+  {
+    "file": "music_safe/track-047.mp3",
+    "title": "Caldera Blue",
+    "artist": "Pierce Murphy",
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Pierce Murphy - Caldera Blue - TODO LICENSE"
+  },
+  {
+    "file": "music_safe/track-048.mp3",
+    "title": "Devil In A Falling Sky",
+    "artist": "Pierce Murphy",
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Pierce Murphy - Devil In A Falling Sky - TODO LICENSE"
+  },
+  {
+    "file": "music_safe/track-049.mp3",
+    "title": "Hey Mercy",
+    "artist": "Pierce Murphy",
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Pierce Murphy - Hey Mercy - TODO LICENSE"
+  },
+  {
+    "file": "music_safe/track-050.mp3",
+    "title": "Satellite",
+    "artist": "Pierce Murphy",
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Pierce Murphy - Satellite - TODO LICENSE"
+  },
+  {
+    "file": "music_safe/track-051.mp3",
+    "title": "Sparkling Impermanence",
+    "artist": "Pierce Murphy",
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Pierce Murphy - Sparkling Impermanence - TODO LICENSE"
+  },
+  {
+    "file": "music_safe/track-052.mp3",
+    "title": "The Shadow Of The Bluff",
+    "artist": "Pierce Murphy",
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Pierce Murphy - The Shadow Of The Bluff - TODO LICENSE"
+  },
+  {
+    "file": "music_safe/track-053.mp3",
+    "title": "This Dream I Had",
+    "artist": "Pierce Murphy",
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Pierce Murphy - This Dream I Had - TODO LICENSE"
+  },
+  {
+    "file": "music_safe/track-054.mp3",
+    "title": "Try To Be Nice",
+    "artist": "Pierce Murphy",
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Pierce Murphy - Try To Be Nice - TODO LICENSE"
+  },
+  {
+    "file": "music_safe/track-055.mp3",
+    "title": "Wicked",
+    "artist": "Pierce Murphy",
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Pierce Murphy - Wicked - TODO LICENSE"
+  },
+  {
+    "file": "music_safe/track-056.mp3",
+    "title": "You Get What You Get",
+    "artist": "Pierce Murphy",
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Pierce Murphy - You Get What You Get - TODO LICENSE"
+  },
+  {
+    "file": "music_safe/track-057.mp3",
     "title": "Replay",
     "artist": "SUPERARE",
-    "license": "CC0 1.0 Universal",
-    "source": "https://freemusicarchive.org/music/superare/superare-20-reloaded/",
-    "attribution": "SUPERARE - Replay - CC0 1.0 Universal"
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "SUPERARE - Replay - TODO LICENSE"
+  },
+  {
+    "file": "music_safe/track-058.mp3",
+    "title": "Fresh Motivational Corporate _Beacon Line_",
+    "artist": "Vlad Annenkov",
+    "license": "TODO: CC0 / CC BY",
+    "source": "TODO: вставить ссылку на источник",
+    "attribution": "Vlad Annenkov - Fresh Motivational Corporate _Beacon Line_ - TODO LICENSE"
   }
 ]
