@@ -5,7 +5,8 @@
     "artist": "A. Cooper",
     "license": "CC BY",
     "source": "https://freemusicarchive.org/music/a-cooper/the-anthony-cooper-abm-vii",
-    "attribution": "A. Cooper - Happiness - CC BY"
+    "attribution": "A. Cooper - Happiness - CC BY",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-014.mp3",
@@ -13,7 +14,8 @@
     "artist": "Andrey Petrov",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/andrey-petrov/",
-    "attribution": "Andrey Petrov - Can’t Wait Till I Graduate - CC BY 4.0"
+    "attribution": "Andrey Petrov - Can’t Wait Till I Graduate - CC BY 4.0",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-015.mp3",
@@ -21,7 +23,8 @@
     "artist": "Andrey Petrov",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/andrey-petrov/",
-    "attribution": "Andrey Petrov - Guilty are the clouds 2 - CC BY 4.0"
+    "attribution": "Andrey Petrov - Guilty are the clouds 2 - CC BY 4.0",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-016.mp3",
@@ -29,7 +32,8 @@
     "artist": "Andrey Petrov",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/andrey-petrov/",
-    "attribution": "Andrey Petrov - I won't hear the wind's tale - CC BY 4.0"
+    "attribution": "Andrey Petrov - I won't hear the wind's tale - CC BY 4.0",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-017.mp3",
@@ -37,7 +41,8 @@
     "artist": "Andrey Petrov",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/andrey-petrov/",
-    "attribution": "Andrey Petrov - Who said - CC BY 4.0"
+    "attribution": "Andrey Petrov - Who said - CC BY 4.0",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-018.mp3",
@@ -45,7 +50,8 @@
     "artist": "Andrey Petrov",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/andrey-petrov/",
-    "attribution": "Andrey Petrov - You’ve got to be kidding - CC BY 4.0"
+    "attribution": "Andrey Petrov - You’ve got to be kidding - CC BY 4.0",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-019.mp3",
@@ -53,7 +59,8 @@
     "artist": "Andrey Petrov",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/andrey-petrov/",
-    "attribution": "Andrey Petrov - Зажигай, веселись - CC BY 4.0"
+    "attribution": "Andrey Petrov - Зажигай, веселись - CC BY 4.0",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-020.mp3",
@@ -61,7 +68,8 @@
     "artist": "Andrey Petrov",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/andrey-petrov/",
-    "attribution": "Andrey Petrov - Закроем окна - CC BY 4.0"
+    "attribution": "Andrey Petrov - Закроем окна - CC BY 4.0",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-021.mp3",
@@ -69,7 +77,8 @@
     "artist": "Andrey Petrov",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/andrey-petrov/",
-    "attribution": "Andrey Petrov - И виноваты облака - CC BY 4.0"
+    "attribution": "Andrey Petrov - И виноваты облака - CC BY 4.0",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-022.mp3",
@@ -77,7 +86,8 @@
     "artist": "Andrey Petrov",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/andrey-petrov/",
-    "attribution": "Andrey Petrov - Рано-рано - CC BY 4.0"
+    "attribution": "Andrey Petrov - Рано-рано - CC BY 4.0",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-023.mp3",
@@ -85,7 +95,8 @@
     "artist": "Andrey Petrov",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/andrey-petrov/",
-    "attribution": "Andrey Petrov - Сквозь тонкие шторы струится рассвет - CC BY 4.0"
+    "attribution": "Andrey Petrov - Сквозь тонкие шторы струится рассвет - CC BY 4.0",
+    "mood": "morning"
   },
   {
     "file": "music_safe/track-024.mp3",
@@ -93,7 +104,8 @@
     "artist": "Andrey Petrov",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/andrey-petrov/",
-    "attribution": "Andrey Petrov - Тихо капает дождик с утра - CC BY 4.0"
+    "attribution": "Andrey Petrov - Тихо капает дождик с утра - CC BY 4.0",
+    "mood": "evening"
   },
   {
     "file": "music_safe/track-025.mp3",
@@ -101,7 +113,8 @@
     "artist": "Andrey Petrov",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/andrey-petrov/",
-    "attribution": "Andrey Petrov - Я не увижу сказки ветра (RUS) - CC BY 4.0"
+    "attribution": "Andrey Petrov - Я не увижу сказки ветра (RUS) - CC BY 4.0",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-026.mp3",
@@ -109,7 +122,8 @@
     "artist": "Avantist",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/avantist/avantist/deep-red-love/",
-    "attribution": "Avantist - Deep Red Love - CC BY 4.0"
+    "attribution": "Avantist - Deep Red Love - CC BY 4.0",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-027.mp3",
@@ -117,7 +131,8 @@
     "artist": "David Blair",
     "license": "Attribution License",
     "source": "https://freemusicarchive.org/music/David_Blair/",
-    "attribution": "David Blair - We Are Canucks - Attribution License"
+    "attribution": "David Blair - We Are Canucks - Attribution License",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-028.mp3",
@@ -125,7 +140,8 @@
     "artist": "Elephant Funeral",
     "license": "CC BY",
     "source": "https://freemusicarchive.org/index.php/music/Caleb_Lemond/The_Learning_Curve",
-    "attribution": "Elephant Funeral - I Think From Now On - CC BY"
+    "attribution": "Elephant Funeral - I Think From Now On - CC BY",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-029.mp3",
@@ -133,7 +149,8 @@
     "artist": "Elephant Funeral",
     "license": "CC BY",
     "source": "https://freemusicarchive.org/index.php/music/Caleb_Lemond/The_Learning_Curve",
-    "attribution": "Elephant Funeral - Slow and Steady - CC BY"
+    "attribution": "Elephant Funeral - Slow and Steady - CC BY",
+    "mood": "evening"
   },
   {
     "file": "music_safe/track-030.mp3",
@@ -141,7 +158,8 @@
     "artist": "Elephant Funeral",
     "license": "CC BY",
     "source": "https://freemusicarchive.org/index.php/music/Caleb_Lemond/The_Learning_Curve",
-    "attribution": "Elephant Funeral - The Dream and the Dreamer - CC BY"
+    "attribution": "Elephant Funeral - The Dream and the Dreamer - CC BY",
+    "mood": "evening"
   },
   {
     "file": "music_safe/track-031.mp3",
@@ -149,7 +167,8 @@
     "artist": "HoliznaCC0",
     "license": "CC0 1.0 Universal",
     "source": "https://freemusicarchive.org/music/holiznacc0/",
-    "attribution": "HoliznaCC0 - You Are My Sunshine (1) - CC0 1.0 Universal"
+    "attribution": "HoliznaCC0 - You Are My Sunshine (1) - CC0 1.0 Universal",
+    "mood": "morning"
   },
   {
     "file": "music_safe/track-032.mp3",
@@ -157,7 +176,8 @@
     "artist": "HoliznaCC0",
     "license": "CC0 1.0 Universal",
     "source": "https://freemusicarchive.org/music/holiznacc0/",
-    "attribution": "HoliznaCC0 - You Are My Sunshine - CC0 1.0 Universal"
+    "attribution": "HoliznaCC0 - You Are My Sunshine - CC0 1.0 Universal",
+    "mood": "morning"
   },
   {
     "file": "music_safe/track-033.mp3",
@@ -165,7 +185,8 @@
     "artist": "Jenna Jay",
     "license": "CC0 1.0 Universal",
     "source": "https://freemusicarchive.org/music/jenna-jay/single/someone-real-jenna-jay/",
-    "attribution": "Jenna Jay - Someone Real - Jenna Jay - CC0 1.0 Universal"
+    "attribution": "Jenna Jay - Someone Real - Jenna Jay - CC0 1.0 Universal",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-034.mp3",
@@ -173,7 +194,8 @@
     "artist": "JMHBM",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/beat-mekanik/single/good-ol-days/",
-    "attribution": "JMHBM - Good Ol' Days - CC BY 4.0"
+    "attribution": "JMHBM - Good Ol' Days - CC BY 4.0",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-035.mp3",
@@ -181,7 +203,8 @@
     "artist": "Lopkerjo",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/john-lopker/everything-he-touches/everthing-he-touches-scat/",
-    "attribution": "Lopkerjo - Everthing He Touches SCAT - CC BY 4.0"
+    "attribution": "Lopkerjo - Everthing He Touches SCAT - CC BY 4.0",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-037.mp3",
@@ -189,7 +212,8 @@
     "artist": "Lopkerjo",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/john-lopker/love-easily-2026-lopkerjo/seize-the-day-blues/",
-    "attribution": "Lopkerjo - Seize the Day Blues - CC BY 4.0"
+    "attribution": "Lopkerjo - Seize the Day Blues - CC BY 4.0",
+    "mood": "jazz"
   },
   {
     "file": "music_safe/track-040.mp3",
@@ -197,7 +221,8 @@
     "artist": "Oh Yeah, the Future",
     "license": "Attribution License",
     "source": "https://freemusicarchive.org/music/Oh_Yeah_the_Future_1152/New_brave_face/",
-    "attribution": "Oh Yeah, the Future - Autopsy - Attribution License"
+    "attribution": "Oh Yeah, the Future - Autopsy - Attribution License",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-041.mp3",
@@ -205,7 +230,8 @@
     "artist": "Oh Yeah, the Future",
     "license": "Attribution License",
     "source": "https://freemusicarchive.org/music/Oh_Yeah_the_Future_1152/New_brave_face/",
-    "attribution": "Oh Yeah, the Future - First Glance - Attribution License"
+    "attribution": "Oh Yeah, the Future - First Glance - Attribution License",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-042.mp3",
@@ -213,7 +239,8 @@
     "artist": "Oh Yeah, the Future",
     "license": "Attribution License",
     "source": "https://freemusicarchive.org/music/Oh_Yeah_the_Future_1152/New_brave_face/",
-    "attribution": "Oh Yeah, the Future - Lackadaisical - Attribution License"
+    "attribution": "Oh Yeah, the Future - Lackadaisical - Attribution License",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-043.mp3",
@@ -221,7 +248,8 @@
     "artist": "Oh Yeah, the Future",
     "license": "Attribution License",
     "source": "https://freemusicarchive.org/music/Oh_Yeah_the_Future_1152/New_brave_face/",
-    "attribution": "Oh Yeah, the Future - Lovedreams - Attribution License"
+    "attribution": "Oh Yeah, the Future - Lovedreams - Attribution License",
+    "mood": "evening"
   },
   {
     "file": "music_safe/track-044.mp3",
@@ -229,7 +257,8 @@
     "artist": "Oh Yeah, the Future",
     "license": "Attribution License",
     "source": "https://freemusicarchive.org/music/Oh_Yeah_the_Future_1152/New_brave_face/",
-    "attribution": "Oh Yeah, the Future - New Brave Face - Attribution License"
+    "attribution": "Oh Yeah, the Future - New Brave Face - Attribution License",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-045.mp3",
@@ -237,7 +266,8 @@
     "artist": "Oh Yeah, the Future",
     "license": "Attribution License",
     "source": "https://freemusicarchive.org/music/Oh_Yeah_the_Future_1152/New_brave_face/",
-    "attribution": "Oh Yeah, the Future - Snowday - Attribution License"
+    "attribution": "Oh Yeah, the Future - Snowday - Attribution License",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-046.mp3",
@@ -245,7 +275,8 @@
     "artist": "Pierce Murphy",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/Pierce_Murphy/",
-    "attribution": "Pierce Murphy - A Serpent I Did Hear - CC BY 4.0"
+    "attribution": "Pierce Murphy - A Serpent I Did Hear - CC BY 4.0",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-047.mp3",
@@ -253,7 +284,8 @@
     "artist": "Pierce Murphy",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/Pierce_Murphy/",
-    "attribution": "Pierce Murphy - Caldera Blue - CC BY 4.0"
+    "attribution": "Pierce Murphy - Caldera Blue - CC BY 4.0",
+    "mood": "jazz"
   },
   {
     "file": "music_safe/track-048.mp3",
@@ -261,7 +293,8 @@
     "artist": "Pierce Murphy",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/Pierce_Murphy/",
-    "attribution": "Pierce Murphy - Devil In A Falling Sky - CC BY 4.0"
+    "attribution": "Pierce Murphy - Devil In A Falling Sky - CC BY 4.0",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-049.mp3",
@@ -269,7 +302,8 @@
     "artist": "Pierce Murphy",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/Pierce_Murphy/",
-    "attribution": "Pierce Murphy - Hey Mercy - CC BY 4.0"
+    "attribution": "Pierce Murphy - Hey Mercy - CC BY 4.0",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-050.mp3",
@@ -277,7 +311,8 @@
     "artist": "Pierce Murphy",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/Pierce_Murphy/",
-    "attribution": "Pierce Murphy - Satellite - CC BY 4.0"
+    "attribution": "Pierce Murphy - Satellite - CC BY 4.0",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-051.mp3",
@@ -285,7 +320,8 @@
     "artist": "Pierce Murphy",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/Pierce_Murphy/",
-    "attribution": "Pierce Murphy - Sparkling Impermanence - CC BY 4.0"
+    "attribution": "Pierce Murphy - Sparkling Impermanence - CC BY 4.0",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-052.mp3",
@@ -293,7 +329,8 @@
     "artist": "Pierce Murphy",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/Pierce_Murphy/",
-    "attribution": "Pierce Murphy - The Shadow Of The Bluff - CC BY 4.0"
+    "attribution": "Pierce Murphy - The Shadow Of The Bluff - CC BY 4.0",
+    "mood": "evening"
   },
   {
     "file": "music_safe/track-053.mp3",
@@ -301,7 +338,8 @@
     "artist": "Pierce Murphy",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/Pierce_Murphy/",
-    "attribution": "Pierce Murphy - This Dream I Had - CC BY 4.0"
+    "attribution": "Pierce Murphy - This Dream I Had - CC BY 4.0",
+    "mood": "evening"
   },
   {
     "file": "music_safe/track-054.mp3",
@@ -309,7 +347,8 @@
     "artist": "Pierce Murphy",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/Pierce_Murphy/",
-    "attribution": "Pierce Murphy - Try To Be Nice - CC BY 4.0"
+    "attribution": "Pierce Murphy - Try To Be Nice - CC BY 4.0",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-055.mp3",
@@ -317,7 +356,8 @@
     "artist": "Pierce Murphy",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/Pierce_Murphy/",
-    "attribution": "Pierce Murphy - Wicked - CC BY 4.0"
+    "attribution": "Pierce Murphy - Wicked - CC BY 4.0",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-056.mp3",
@@ -325,7 +365,8 @@
     "artist": "Pierce Murphy",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/Pierce_Murphy/",
-    "attribution": "Pierce Murphy - You Get What You Get - CC BY 4.0"
+    "attribution": "Pierce Murphy - You Get What You Get - CC BY 4.0",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-057.mp3",
@@ -333,7 +374,8 @@
     "artist": "SUPERARE",
     "license": "CC0 1.0 Universal",
     "source": "https://freemusicarchive.org/music/superare/",
-    "attribution": "SUPERARE - Replay - CC0 1.0 Universal"
+    "attribution": "SUPERARE - Replay - CC0 1.0 Universal",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-059.mp3",
@@ -341,7 +383,8 @@
     "artist": "A. Cooper",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/a-cooper/the-anthony-cooper-abm-vi/dreams-6/",
-    "attribution": "A. Cooper - Dreams - CC BY 4.0"
+    "attribution": "A. Cooper - Dreams - CC BY 4.0",
+    "mood": "evening"
   },
   {
     "file": "music_safe/track-060.mp3",
@@ -349,7 +392,8 @@
     "artist": "Adeline Yeo (HP)",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/adeline-yeo-hp/single/suiyuedehenji/",
-    "attribution": "Adeline Yeo (HP) - 岁月的痕迹 (SuiYueDeHenJi) - CC BY 4.0"
+    "attribution": "Adeline Yeo (HP) - 岁月的痕迹 (SuiYueDeHenJi) - CC BY 4.0",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-061.mp3",
@@ -357,7 +401,8 @@
     "artist": "Adeline Yeo (HP)",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/adeline-yeo-hp/single/xintiaodeshengyin/",
-    "attribution": "Adeline Yeo (HP) - 心跳的声音 (XinTiaoDeShengYin) - CC BY 4.0"
+    "attribution": "Adeline Yeo (HP) - 心跳的声音 (XinTiaoDeShengYin) - CC BY 4.0",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-062.mp3",
@@ -365,7 +410,8 @@
     "artist": "Andrey Petrov",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/andrey-petrov/sunset-reggae-dreams",
-    "attribution": "Andrey Petrov - The Road Ahead - CC BY 4.0"
+    "attribution": "Andrey Petrov - The Road Ahead - CC BY 4.0",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-063.mp3",
@@ -373,7 +419,8 @@
     "artist": "Andrey Petrov",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/andrey-petrov/sunset-reggae-dreams",
-    "attribution": "Andrey Petrov - Быстрый ветер быстрый фанк - CC BY 4.0"
+    "attribution": "Andrey Petrov - Быстрый ветер быстрый фанк - CC BY 4.0",
+    "mood": "energy"
   },
   {
     "file": "music_safe/track-064.mp3",
@@ -381,7 +428,8 @@
     "artist": "Andrey Petrov",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/andrey-petrov/sunset-reggae-dreams",
-    "attribution": "Andrey Petrov - Лето, рилсы, смузи, танцы - CC BY 4.0"
+    "attribution": "Andrey Petrov - Лето, рилсы, смузи, танцы - CC BY 4.0",
+    "mood": "energy"
   },
   {
     "file": "music_safe/track-065.mp3",
@@ -389,7 +437,8 @@
     "artist": "Andrey Petrov",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/andrey-petrov/sunset-reggae-dreams",
-    "attribution": "Andrey Petrov - Мы Слушаем Джаз - CC BY 4.0"
+    "attribution": "Andrey Petrov - Мы Слушаем Джаз - CC BY 4.0",
+    "mood": "jazz"
   },
   {
     "file": "music_safe/track-066.mp3",
@@ -397,7 +446,8 @@
     "artist": "Andrey Petrov",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/andrey-petrov/sunset-reggae-dreams",
-    "attribution": "Andrey Petrov - Однажды утро - CC BY 4.0"
+    "attribution": "Andrey Petrov - Однажды утро - CC BY 4.0",
+    "mood": "morning"
   },
   {
     "file": "music_safe/track-067.mp3",
@@ -405,7 +455,8 @@
     "artist": "Andrey Petrov",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/andrey-petrov/sunset-reggae-dreams",
-    "attribution": "Andrey Petrov - Танец под дудочку - CC BY 4.0"
+    "attribution": "Andrey Petrov - Танец под дудочку - CC BY 4.0",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-068.mp3",
@@ -413,7 +464,8 @@
     "artist": "Andrey Petrov",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/andrey-petrov/sunset-reggae-dreams",
-    "attribution": "Andrey Petrov - Утро с ветерком - CC BY 4.0"
+    "attribution": "Andrey Petrov - Утро с ветерком - CC BY 4.0",
+    "mood": "morning"
   },
   {
     "file": "music_safe/track-069.mp3",
@@ -421,7 +473,8 @@
     "artist": "Austin Moffa",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/austin-moffa/a-speck-of-dust-in-space/you-will-fall/",
-    "attribution": "Austin Moffa - You Will Fall - CC BY 4.0"
+    "attribution": "Austin Moffa - You Will Fall - CC BY 4.0",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-070.mp3",
@@ -429,7 +482,8 @@
     "artist": "Billy Murray",
     "license": "Public Domain / Sound Recording Common Law Protection",
     "source": "https://freemusicarchive.org/music/Billy_Murray/Antique_Phonograph_Music_Program_04282015/My_Old_New_Jersey_Home_-_Billy_Murray/",
-    "attribution": "Billy Murray - My Old New Jersey Home - Public Domain / Sound Recording Common Law Protection"
+    "attribution": "Billy Murray - My Old New Jersey Home - Public Domain / Sound Recording Common Law Protection",
+    "mood": "vintage"
   },
   {
     "file": "music_safe/track-071.mp3",
@@ -437,7 +491,8 @@
     "artist": "Breuss Arrizabalaga Quintet",
     "license": "Public Domain",
     "source": "https://freemusicarchive.org/music/Breuss_Arrizabalaga_Quintet/Nfamoudou-Boudougou/05_-_breuss_arrizabalaga_quintet_-_mount_fuji/",
-    "attribution": "Breuss Arrizabalaga Quintet - Mount Fuji - Public Domain"
+    "attribution": "Breuss Arrizabalaga Quintet - Mount Fuji - Public Domain",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-072.mp3",
@@ -445,7 +500,8 @@
     "artist": "Bryan Mathys",
     "license": "Creative Commons Attribution License",
     "source": "https://freemusicarchive.org/music/Bryan_Mathys/Wild_Heart/Bryan_Mathys_-_Wild_Heart_-_03_Its_Not_Hard_to_Get_Lost/",
-    "attribution": "Bryan Mathys - It's Not Hard to Get Lost - Creative Commons Attribution License"
+    "attribution": "Bryan Mathys - It's Not Hard to Get Lost - Creative Commons Attribution License",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-073.mp3",
@@ -453,7 +509,8 @@
     "artist": "Bryan Mathys",
     "license": "Creative Commons Attribution License",
     "source": "https://freemusicarchive.org/music/Bryan_Mathys/Wild_Heart/Bryan_Mathys_-_Wild_Heart_-_04_Wild_Heart/",
-    "attribution": "Bryan Mathys - Wild Heart - Creative Commons Attribution License"
+    "attribution": "Bryan Mathys - Wild Heart - Creative Commons Attribution License",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-074.mp3",
@@ -461,7 +518,8 @@
     "artist": "Cullah",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/MC_Cullah/Cullah_The_Wild",
-    "attribution": "Cullah - Neurosis Of The Liver - CC BY 4.0"
+    "attribution": "Cullah - Neurosis Of The Liver - CC BY 4.0",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-075.mp3",
@@ -469,7 +527,8 @@
     "artist": "Cullah",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/MC_Cullah/Cullah_The_Wild/03_-_The_Fallow_Fellow/",
-    "attribution": "Cullah - The Fallow Fellow - CC BY 4.0"
+    "attribution": "Cullah - The Fallow Fellow - CC BY 4.0",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-076.mp3",
@@ -477,7 +536,8 @@
     "artist": "Cullah",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/MC_Cullah/Cullah_The_Wild/09_-_To_The_Rhythm_of_the_Funk/",
-    "attribution": "Cullah - To The Rhythm of the Funk - CC BY 4.0"
+    "attribution": "Cullah - To The Rhythm of the Funk - CC BY 4.0",
+    "mood": "energy"
   },
   {
     "file": "music_safe/track-077.mp3",
@@ -485,7 +545,8 @@
     "artist": "Cullah",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/MC_Cullah/Cullah_The_Wild/06_-_Where_You_Do_Belong/",
-    "attribution": "Cullah - Where You Do Belong - CC BY 4.0"
+    "attribution": "Cullah - Where You Do Belong - CC BY 4.0",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-078.mp3",
@@ -493,7 +554,8 @@
     "artist": "G.H. Elliot",
     "license": "CC0 1.0 Universal",
     "source": "https://freemusicarchive.org/music/Antique_Phonograph_Music_Program_Various_Artists/Antique_Phonograph_Music_Program_03231999",
-    "attribution": "G.H. Elliot - Hello Susie Green - CC0 1.0 Universal"
+    "attribution": "G.H. Elliot - Hello Susie Green - CC0 1.0 Universal",
+    "mood": "vintage"
   },
   {
     "file": "music_safe/track-079.mp3",
@@ -501,7 +563,8 @@
     "artist": "Greg Atkinson",
     "license": "Creative Commons Attribution License",
     "source": "https://freemusicarchive.org/music/Greg_Atkinson/single/Freyasberg/",
-    "attribution": "Greg Atkinson - Freyasberg - Creative Commons Attribution License"
+    "attribution": "Greg Atkinson - Freyasberg - Creative Commons Attribution License",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-080.mp3",
@@ -509,7 +572,8 @@
     "artist": "JMHBM",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/beat-mekanik/single/dirty-dog/",
-    "attribution": "JMHBM - Dirty Dog - CC BY 4.0"
+    "attribution": "JMHBM - Dirty Dog - CC BY 4.0",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-081.mp3",
@@ -517,7 +581,8 @@
     "artist": "JMHBM",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/beat-mekanik/single/flashback/",
-    "attribution": "JMHBM - Flashback - CC BY 4.0"
+    "attribution": "JMHBM - Flashback - CC BY 4.0",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-082.mp3",
@@ -525,7 +590,8 @@
     "artist": "JMHBM",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/beat-mekanik/single/stampede-1/",
-    "attribution": "JMHBM - Stampede - CC BY 4.0"
+    "attribution": "JMHBM - Stampede - CC BY 4.0",
+    "mood": "energy"
   },
   {
     "file": "music_safe/track-083.mp3",
@@ -533,7 +599,8 @@
     "artist": "Katy Kirby",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/Katy_Kirby/Katy_Kirby/Katy_Kirby_-_3_-_01_Every_Time/",
-    "attribution": "Katy Kirby - Every Time - CC BY 4.0"
+    "attribution": "Katy Kirby - Every Time - CC BY 4.0",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-084.mp3",
@@ -541,7 +608,8 @@
     "artist": "Kevin MacLeod",
     "license": "Creative Commons Attribution License",
     "source": "https://freemusicarchive.org/music/Kevin_MacLeod/Blues_Sampler/Slow_Burn/",
-    "attribution": "Kevin MacLeod - Slow Burn - Creative Commons Attribution License"
+    "attribution": "Kevin MacLeod - Slow Burn - Creative Commons Attribution License",
+    "mood": "evening"
   },
   {
     "file": "music_safe/track-085.mp3",
@@ -549,7 +617,8 @@
     "artist": "Koi-discovery",
     "license": "CC0 1.0 Universal",
     "source": "https://freemusicarchive.org/music/koi-discovery/gaz-mask/beer-blues/",
-    "attribution": "Koi-discovery - Beer-Blues - CC0 1.0 Universal"
+    "attribution": "Koi-discovery - Beer-Blues - CC0 1.0 Universal",
+    "mood": "jazz"
   },
   {
     "file": "music_safe/track-087.mp3",
@@ -557,7 +626,8 @@
     "artist": "LowLevA",
     "license": "CC BY",
     "source": "https://freemusicarchive.org/music/lowleva/single/kids-at-play/",
-    "attribution": "LowLevA - Kids at play - CC BY"
+    "attribution": "LowLevA - Kids at play - CC BY",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-089.mp3",
@@ -565,7 +635,8 @@
     "artist": "Monroe Silver",
     "license": "Public Domain / Sound Recording Common Law Protection",
     "source": "https://freemusicarchive.org/music/Antique_Phonograph_Music_Program_Various_Artists/Antique_Phonograph_Music_Program_01052010",
-    "attribution": "Monroe Silver - The Shiek of Avenue B - Public Domain / Sound Recording Common Law Protection"
+    "attribution": "Monroe Silver - The Shiek of Avenue B - Public Domain / Sound Recording Common Law Protection",
+    "mood": "vintage"
   },
   {
     "file": "music_safe/track-090.mp3",
@@ -573,7 +644,8 @@
     "artist": "Oh Yeah, the Future",
     "license": "Creative Commons Attribution License",
     "source": "https://freemusicarchive.org/music/Oh_Yeah_the_Future_1152/New_brave_face/",
-    "attribution": "Oh Yeah, the Future - Hungry - Creative Commons Attribution License"
+    "attribution": "Oh Yeah, the Future - Hungry - Creative Commons Attribution License",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-091.mp3",
@@ -581,7 +653,8 @@
     "artist": "Oh Yeah, the Future",
     "license": "Creative Commons Attribution License",
     "source": "https://freemusicarchive.org/music/Oh_Yeah_the_Future_1152/New_brave_face/",
-    "attribution": "Oh Yeah, the Future - Roundtrip - Creative Commons Attribution License"
+    "attribution": "Oh Yeah, the Future - Roundtrip - Creative Commons Attribution License",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-092.mp3",
@@ -589,7 +662,8 @@
     "artist": "Oh Yeah, the Future",
     "license": "Creative Commons Attribution License",
     "source": "https://freemusicarchive.org/music/Oh_Yeah_the_Future_1152/New_brave_face/Oh_Yeah_the_Future_-_New_Brave_Face_-_04_The_Pursuit_of_Unintentional_Humor/",
-    "attribution": "Oh Yeah, the Future - The Pursuit of Unintentional Humor - Creative Commons Attribution License"
+    "attribution": "Oh Yeah, the Future - The Pursuit of Unintentional Humor - Creative Commons Attribution License",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-093.mp3",
@@ -597,7 +671,8 @@
     "artist": "Pierce Murphy",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/Pierce_Murphy/single/good-king-wenceslaus/",
-    "attribution": "Pierce Murphy - Good King Wenceslaus - CC BY 4.0"
+    "attribution": "Pierce Murphy - Good King Wenceslaus - CC BY 4.0",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-094.mp3",
@@ -605,7 +680,8 @@
     "artist": "Prince's Band",
     "license": "Public Domain / Sound Recording Common Law Protection",
     "source": "https://freemusicarchive.org/music/Antique_Phonograph_Music_Program_Various_Artists/Antique_Phonograph_Music_Program_01202015",
-    "attribution": "Prince's Band - On The Mississippi - Public Domain / Sound Recording Common Law Protection"
+    "attribution": "Prince's Band - On The Mississippi - Public Domain / Sound Recording Common Law Protection",
+    "mood": "vintage"
   },
   {
     "file": "music_safe/track-095.mp3",
@@ -613,7 +689,8 @@
     "artist": "Shane Ivers",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/shane-ivers/single/monsieur-miaow/",
-    "attribution": "Shane Ivers - Monsieur Miaow - CC BY 4.0"
+    "attribution": "Shane Ivers - Monsieur Miaow - CC BY 4.0",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-096.mp3",
@@ -621,7 +698,8 @@
     "artist": "Shane Ivers",
     "license": "CC BY 4.0",
     "source": "https://freemusicarchive.org/music/shane-ivers/single/wallpaper-paste/",
-    "attribution": "Shane Ivers - Wallpaper Paste - CC BY 4.0"
+    "attribution": "Shane Ivers - Wallpaper Paste - CC BY 4.0",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-097.mp3",
@@ -629,7 +707,8 @@
     "artist": "SUPERARE",
     "license": "CC0 1.0 Universal",
     "source": "https://freemusicarchive.org/music/superare/iv/hyperreal/",
-    "attribution": "SUPERARE - Hyperreal - CC0 1.0 Universal"
+    "attribution": "SUPERARE - Hyperreal - CC0 1.0 Universal",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-098.mp3",
@@ -637,7 +716,8 @@
     "artist": "The Midnight Sons",
     "license": "Creative Commons Attribution License",
     "source": "https://freemusicarchive.org/music/The_Midnight_Sons/Decartes/The_Midnight_Sons_-_Descartes_-_04_Asymptote",
-    "attribution": "The Midnight Sons - Asymptote - Creative Commons Attribution License"
+    "attribution": "The Midnight Sons - Asymptote - Creative Commons Attribution License",
+    "mood": "evening"
   },
   {
     "file": "music_safe/track-099.mp3",
@@ -645,7 +725,8 @@
     "artist": "Tricky Diesel",
     "license": "Creative Commons Attribution License",
     "source": "https://freemusicarchive.org/music/Tricky_Diesel/Give_Me_a_Beat",
-    "attribution": "Tricky Diesel - Dark Kingdom - Creative Commons Attribution License"
+    "attribution": "Tricky Diesel - Dark Kingdom - Creative Commons Attribution License",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-101.mp3",
@@ -653,7 +734,8 @@
     "artist": "William Ross Chernoff's Nomads",
     "license": "Creative Commons Attribution License",
     "source": "https://freemusicarchive.org/music/William_Ross/Aim_to_Stay/William_Ross_Chernoffs_Nomads_-_Aim_to_Stay_-_02_In_Shadows",
-    "attribution": "William Ross Chernoff's Nomads - In Shadows - Creative Commons Attribution License"
+    "attribution": "William Ross Chernoff's Nomads - In Shadows - Creative Commons Attribution License",
+    "mood": "evening"
   },
   {
     "file": "music_safe/track-102.mp3",
@@ -661,7 +743,8 @@
     "artist": "William Ross Chernoff's Nomads",
     "license": "Creative Commons Attribution License",
     "source": "https://freemusicarchive.org/music/William_Ross_Chernoffs_Nomads/Aim_to_Stay/William_Ross_Chernoffs_Nomads_-_Aim_to_Stay_-_01_Makie_Elkino/",
-    "attribution": "William Ross Chernoff's Nomads - Makie Elkino - Creative Commons Attribution License"
+    "attribution": "William Ross Chernoff's Nomads - Makie Elkino - Creative Commons Attribution License",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-103.mp3",
@@ -669,7 +752,8 @@
     "artist": "Yshwa",
     "license": "CC BY",
     "source": "https://freemusicarchive.org/music/Yshwa/ThankGodItsFriday",
-    "attribution": "Yshwa - Silver Haze - CC BY"
+    "attribution": "Yshwa - Silver Haze - CC BY",
+    "mood": "evening"
   },
   {
     "file": "music_safe/track-104.mp3",
@@ -677,7 +761,8 @@
     "artist": "Yshwa",
     "license": "CC BY",
     "source": "https://freemusicarchive.org/music/Yshwa/ThankGodItsFriday",
-    "attribution": "Yshwa - What They Sayin - CC BY"
+    "attribution": "Yshwa - What They Sayin - CC BY",
+    "mood": "chill"
   },
   {
     "file": "music_safe/track-105.mp3",
@@ -685,6 +770,7 @@
     "artist": "Zane Little",
     "license": "CC0 1.0 Universal",
     "source": "https://freemusicarchive.org/music/zane-little/-2/ill-fated-fantasy/",
-    "attribution": "Zane Little - Ill-Fated Fantasy - CC0 1.0 Universal"
+    "attribution": "Zane Little - Ill-Fated Fantasy - CC0 1.0 Universal",
+    "mood": "chill"
   }
 ]
