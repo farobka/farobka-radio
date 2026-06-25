@@ -6,133 +6,261 @@
   <title>Farobka Radio</title>
   <style>
     :root {
-      --bg: #080403;
-      --panel: rgba(255,255,255,.08);
-      --panel2: rgba(255,255,255,.12);
-      --text: #fff7ee;
-      --muted: rgba(255,247,238,.62);
-      --accent: #ff4f2e;
-      --accent2: #f7b267;
-      --good: #8cffc1;
-      --bad: #ff7a7a;
+      --bg: #070302;
+      --coffee: #190b06;
+      --panel: rgba(255, 246, 235, .075);
+      --panel-strong: rgba(255, 246, 235, .12);
+      --line: rgba(255, 246, 235, .14);
+      --text: #fff5ea;
+      --muted: rgba(255, 245, 234, .62);
+      --soft: rgba(255, 245, 234, .38);
+      --orange: #ff6a2a;
+      --amber: #ffc06a;
+      --green: #8cffbf;
+      --red: #ff7b7b;
+      --shadow: rgba(0, 0, 0, .55);
     }
 
-    * {
-      box-sizing: border-box;
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      min-height: 100%;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Inter, Arial, sans-serif;
     }
 
     body {
-      margin: 0;
       min-height: 100vh;
-      font-family: Arial, sans-serif;
-      color: var(--text);
+      overflow-x: hidden;
       background:
-        radial-gradient(circle at 15% 10%, rgba(255,79,46,.25), transparent 32%),
-        radial-gradient(circle at 85% 25%, rgba(247,178,103,.18), transparent 28%),
-        linear-gradient(135deg, #050202, #160b07 48%, #050202);
-      display: grid;
-      place-items: center;
-      padding: 24px;
+        radial-gradient(circle at 12% 12%, rgba(255, 106, 42, .26), transparent 28%),
+        radial-gradient(circle at 82% 18%, rgba(255, 192, 106, .15), transparent 32%),
+        radial-gradient(circle at 52% 92%, rgba(140, 255, 191, .08), transparent 30%),
+        linear-gradient(135deg, #050202, #160904 52%, #050202);
     }
 
-    .app {
-      width: min(980px, 100%);
-      border: 1px solid rgba(255,255,255,.12);
-      background: rgba(0,0,0,.48);
-      border-radius: 28px;
-      padding: 28px;
-      box-shadow: 0 30px 120px rgba(0,0,0,.65);
-      backdrop-filter: blur(16px);
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      opacity: .16;
+      background-image:
+        linear-gradient(rgba(255,255,255,.045) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px);
+      background-size: 56px 56px;
+      mask-image: radial-gradient(circle at center, black, transparent 72%);
     }
 
-    .top {
+    .page {
+      width: min(1260px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 28px 0 38px;
+    }
+
+    .hero {
       display: flex;
       justify-content: space-between;
-      gap: 18px;
       align-items: flex-start;
-      flex-wrap: wrap;
+      gap: 22px;
+      margin-bottom: 22px;
+    }
+
+    .brand-kicker {
+      color: var(--amber);
+      letter-spacing: .22em;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 900;
+      margin-bottom: 10px;
     }
 
     h1 {
       margin: 0;
-      font-size: clamp(34px, 6vw, 74px);
-      letter-spacing: -0.06em;
-      line-height: .92;
+      font-size: clamp(48px, 8vw, 104px);
+      line-height: .84;
+      letter-spacing: -.075em;
+      text-shadow: 0 28px 80px rgba(255, 106, 42, .18);
     }
 
-    .badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      border: 1px solid rgba(255,255,255,.16);
-      background: rgba(255,255,255,.08);
-      border-radius: 999px;
-      padding: 10px 14px;
+    .hero-sub {
+      margin-top: 14px;
       color: var(--muted);
-      font-size: 14px;
+      max-width: 720px;
+      font-size: 16px;
+      line-height: 1.55;
+    }
+
+    .live-card {
+      min-width: 230px;
+      border: 1px solid var(--line);
+      background: rgba(0,0,0,.34);
+      border-radius: 24px;
+      padding: 16px;
+      box-shadow: 0 24px 70px var(--shadow);
+      backdrop-filter: blur(18px);
+    }
+
+    .live-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--green);
+      box-shadow: 0 0 28px var(--green);
+      display: inline-block;
+      margin-right: 8px;
+    }
+
+    .live-title {
+      font-weight: 900;
+      margin-bottom: 8px;
+    }
+
+    .live-meta {
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1.5fr) minmax(320px, .8fr);
+      gap: 18px;
+      align-items: stretch;
+    }
+
+    .card {
+      border: 1px solid var(--line);
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.09), rgba(255,255,255,.045)),
+        rgba(0,0,0,.38);
+      border-radius: 32px;
+      box-shadow: 0 28px 90px var(--shadow);
+      backdrop-filter: blur(18px);
     }
 
     .now {
-      margin-top: 34px;
-      padding: 26px;
-      border-radius: 24px;
-      background: var(--panel);
-      border: 1px solid rgba(255,255,255,.1);
+      padding: clamp(20px, 4vw, 34px);
+      min-height: 560px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .now::after {
+      content: "";
+      position: absolute;
+      right: -100px;
+      bottom: -100px;
+      width: 340px;
+      height: 340px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(255,106,42,.22), transparent 68%);
+      pointer-events: none;
     }
 
     .label {
       color: var(--muted);
       text-transform: uppercase;
-      letter-spacing: .18em;
+      letter-spacing: .2em;
       font-size: 12px;
-      margin-bottom: 12px;
+      font-weight: 900;
     }
 
-    .title {
-      font-size: clamp(28px, 5vw, 54px);
-      line-height: 1;
-      font-weight: 800;
-      letter-spacing: -0.04em;
-      margin-bottom: 10px;
+    .track-title {
+      margin-top: 18px;
+      font-size: clamp(38px, 6vw, 78px);
+      line-height: .92;
+      letter-spacing: -.06em;
+      font-weight: 1000;
+      max-width: 920px;
     }
 
-    .artist {
-      font-size: 22px;
-      color: var(--accent2);
-    }
-
-    .meta {
+    .track-artist {
       margin-top: 16px;
+      color: var(--amber);
+      font-size: clamp(22px, 3vw, 34px);
+      font-weight: 850;
+    }
+
+    .track-meta {
+      margin-top: 18px;
       color: var(--muted);
-      font-size: 14px;
-      line-height: 1.5;
+      line-height: 1.55;
+      max-width: 780px;
+      font-size: 15px;
+    }
+
+    .modes {
+      display: flex;
+      gap: 9px;
+      flex-wrap: wrap;
+      margin: 26px 0 0;
+    }
+
+    .mode {
+      border: 1px solid rgba(255,255,255,.12);
+      background: rgba(255,255,255,.055);
+      color: var(--text);
+      border-radius: 999px;
+      padding: 10px 13px;
+      cursor: pointer;
+      font-weight: 900;
+      font-size: 13px;
+    }
+
+    .mode.active {
+      color: #170702;
+      background: linear-gradient(135deg, var(--amber), var(--orange));
+      border-color: transparent;
+      box-shadow: 0 12px 34px rgba(255,106,42,.22);
     }
 
     .controls {
       display: flex;
       gap: 12px;
       flex-wrap: wrap;
-      margin-top: 24px;
       align-items: center;
+      margin-top: 28px;
+      position: relative;
+      z-index: 1;
     }
 
-    button {
+    button, .link-button {
       border: 0;
       border-radius: 999px;
-      padding: 14px 22px;
-      font-size: 16px;
-      font-weight: 800;
-      color: #160703;
-      background: linear-gradient(135deg, var(--accent2), var(--accent));
+      padding: 14px 20px;
+      min-height: 48px;
+      font-size: 15px;
+      font-weight: 1000;
       cursor: pointer;
-      box-shadow: 0 12px 30px rgba(255,79,46,.22);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      user-select: none;
     }
 
-    button.secondary {
+    .primary {
+      color: #180802;
+      background: linear-gradient(135deg, var(--amber), var(--orange));
+      box-shadow: 0 16px 42px rgba(255,106,42,.28);
+      min-width: 136px;
+    }
+
+    .secondary {
       color: var(--text);
-      background: var(--panel2);
-      box-shadow: none;
+      background: rgba(255,255,255,.075);
       border: 1px solid rgba(255,255,255,.12);
+    }
+
+    .secondary:hover, .mode:hover {
+      background: rgba(255,255,255,.13);
     }
 
     button:disabled {
@@ -145,192 +273,324 @@
       align-items: center;
       gap: 10px;
       color: var(--muted);
-      padding: 10px 14px;
-      border-radius: 999px;
       background: rgba(255,255,255,.06);
-      border: 1px solid rgba(255,255,255,.1);
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 999px;
+      padding: 10px 14px;
+      min-height: 48px;
+      font-weight: 800;
     }
 
     input[type="range"] {
       width: 160px;
+      accent-color: var(--orange);
     }
 
-    .meters {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 12px;
-      margin-top: 18px;
+    .wave {
+      height: 88px;
+      display: flex;
+      gap: 7px;
+      align-items: center;
+      margin-top: 32px;
+      opacity: .92;
     }
 
-    .meter {
-      padding: 14px;
-      border-radius: 18px;
-      background: rgba(255,255,255,.06);
-      border: 1px solid rgba(255,255,255,.08);
-      color: var(--muted);
-      font-size: 14px;
-    }
-
-    .meter strong {
-      display: block;
-      color: var(--text);
-      margin-bottom: 8px;
-    }
-
-    .bar {
-      height: 8px;
-      background: rgba(255,255,255,.08);
+    .wave span {
+      width: 9px;
+      height: 18px;
       border-radius: 999px;
-      overflow: hidden;
+      background: linear-gradient(180deg, var(--amber), var(--orange));
+      box-shadow: 0 0 26px rgba(255,106,42,.25);
+      transform-origin: bottom;
+      animation: pulse 1.15s ease-in-out infinite;
+      animation-play-state: paused;
     }
 
-    .fill {
-      height: 100%;
-      width: 0%;
-      background: linear-gradient(90deg, var(--accent2), var(--accent));
-      transition: width .12s linear;
+    .playing .wave span {
+      animation-play-state: running;
     }
 
-    .history {
-      margin-top: 20px;
-      padding: 18px;
-      border-radius: 20px;
-      background: rgba(255,255,255,.055);
-      border: 1px solid rgba(255,255,255,.08);
+    .wave span:nth-child(2n) { animation-delay: .12s; }
+    .wave span:nth-child(3n) { animation-delay: .24s; }
+    .wave span:nth-child(4n) { animation-delay: .36s; }
+    .wave span:nth-child(5n) { animation-delay: .48s; }
+
+    @keyframes pulse {
+      0%, 100% { transform: scaleY(.34); opacity: .5; }
+      50% { transform: scaleY(2.7); opacity: 1; }
     }
 
-    .history-list {
-      margin: 0;
-      padding-left: 18px;
-      color: var(--muted);
-      line-height: 1.8;
+    .side {
+      display: grid;
+      gap: 18px;
+    }
+
+    .side-card {
+      padding: 20px;
+      border-radius: 28px;
     }
 
     .status {
-      margin-top: 18px;
+      margin-top: 12px;
       color: var(--muted);
+      line-height: 1.45;
       font-size: 14px;
     }
 
-    .status.ok {
-      color: var(--good);
+    .status.ok { color: var(--green); }
+    .status.bad { color: var(--red); }
+
+    .stat-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 14px;
     }
 
-    .status.bad {
-      color: var(--bad);
+    .stat {
+      padding: 13px;
+      background: rgba(255,255,255,.055);
+      border: 1px solid rgba(255,255,255,.09);
+      border-radius: 18px;
     }
 
-    @media (max-width: 720px) {
-      .app {
-        padding: 18px;
+    .stat-value {
+      font-size: 24px;
+      font-weight: 1000;
+      color: var(--amber);
+    }
+
+    .stat-name {
+      color: var(--muted);
+      font-size: 12px;
+      margin-top: 4px;
+    }
+
+    .history {
+      list-style: none;
+      margin: 14px 0 0;
+      padding: 0;
+      display: grid;
+      gap: 10px;
+      max-height: 390px;
+      overflow: auto;
+    }
+
+    .history li {
+      padding: 12px;
+      border-radius: 17px;
+      background: rgba(255,255,255,.052);
+      border: 1px solid rgba(255,255,255,.08);
+    }
+
+    .history-title {
+      font-weight: 900;
+      line-height: 1.25;
+    }
+
+    .history-artist {
+      color: var(--muted);
+      margin-top: 4px;
+      font-size: 13px;
+    }
+
+    .mini-note {
+      color: var(--soft);
+      font-size: 12px;
+      line-height: 1.5;
+      margin-top: 12px;
+    }
+
+    .footer {
+      margin-top: 18px;
+      color: var(--soft);
+      font-size: 12px;
+      text-align: center;
+    }
+
+    @media (max-width: 920px) {
+      .hero {
+        flex-direction: column;
       }
 
-      .meters {
+      .live-card {
+        width: 100%;
+      }
+
+      .layout {
         grid-template-columns: 1fr;
       }
 
-      .controls {
-        align-items: stretch;
+      .now {
+        min-height: auto;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .page {
+        width: min(100% - 18px, 1260px);
+        padding-top: 14px;
       }
 
-      button {
+      .card {
+        border-radius: 24px;
+      }
+
+      .now, .side-card {
+        padding: 16px;
+      }
+
+      .controls > button,
+      .controls > a,
+      .volume {
+        width: 100%;
+      }
+
+      input[type="range"] {
         width: 100%;
       }
 
       .volume {
-        width: 100%;
         justify-content: space-between;
+      }
+
+      .stat-grid {
+        grid-template-columns: 1fr;
       }
     }
   </style>
 </head>
 <body>
-  <main class="app">
-    <div class="top">
-      <div>
+  <main class="page" id="app">
+    <header class="hero">
+      <section>
+        <div class="brand-kicker">coffee air broadcast</div>
         <h1>Farobka Radio</h1>
-        <div class="badge">☕ Smart shuffle · Crossfade · Radio v2</div>
-      </div>
-      <div class="badge" id="trackCount">Загрузка плейлиста...</div>
+        <div class="hero-sub">
+          Премиальная кофейная радиостанция: smart shuffle, мягкий кроссфейд, режимы эфира и только безопасные треки.
+        </div>
+      </section>
+
+      <aside class="live-card">
+        <div class="live-title"><span class="live-dot"></span>Live Radio v2</div>
+        <div class="live-meta" id="topMeta">Загружаю плейлист...</div>
+      </aside>
+    </header>
+
+    <section class="layout">
+      <article class="card now">
+        <div>
+          <div class="label">Now Playing</div>
+          <div class="track-title" id="trackTitle">Не играет</div>
+          <div class="track-artist" id="trackArtist">Нажми Play</div>
+          <div class="track-meta" id="trackMeta">Farobka Radio v2 · кофейный тёмный эфир · без лицензионной хуйни.</div>
+
+          <nav class="modes" id="modes">
+            <button class="mode active" data-mode="all">Все</button>
+            <button class="mode" data-mode="morning">Morning</button>
+            <button class="mode" data-mode="day">Day</button>
+            <button class="mode" data-mode="evening">Evening</button>
+            <button class="mode" data-mode="chill">Chill</button>
+            <button class="mode" data-mode="energy">Energy</button>
+            <button class="mode" data-mode="jazz">Jazz</button>
+            <button class="mode" data-mode="vintage">Vintage</button>
+          </nav>
+        </div>
+
+        <div>
+          <div class="wave" aria-hidden="true">
+            <span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span>
+          </div>
+
+          <div class="controls">
+            <button id="playBtn" class="primary">▶ Play</button>
+            <button id="nextBtn" class="secondary">⏭ Next</button>
+            <button id="stopBtn" class="secondary">⏹ Stop</button>
+            <a class="link-button secondary" href="licenses.html" target="_blank" rel="noopener">📜 Лицензии</a>
+
+            <label class="volume">
+              🎚️
+              <input id="volume" type="range" min="0" max="100" value="82" />
+              <span id="volumeText">82%</span>
+            </label>
+          </div>
+        </div>
+      </article>
+
+      <aside class="side">
+        <section class="card side-card">
+          <div class="label">Status</div>
+          <div id="status" class="status">Готовлю эфир...</div>
+
+          <div class="stat-grid">
+            <div class="stat">
+              <div class="stat-value" id="tracksCount">0</div>
+              <div class="stat-name">треков в эфире</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value" id="modeCount">0</div>
+              <div class="stat-name">в режиме</div>
+            </div>
+          </div>
+
+          <div class="mini-note">
+            Фильтр не пускает TODO, NEEDS LICENSE, NEEDS FMA, Winter / Зима, track-004, NC, ND и All Rights Reserved.
+          </div>
+        </section>
+
+        <section class="card side-card">
+          <div class="label">History</div>
+          <ul class="history" id="history"></ul>
+        </section>
+      </aside>
+    </section>
+
+    <div class="footer">
+      Farobka Radio · GitHub Pages + future Windows app · один источник правды: radio_site
     </div>
-
-    <section class="now">
-      <div class="label">Now Playing</div>
-      <div class="title" id="title">Не играет</div>
-      <div class="artist" id="artist">Нажми Play</div>
-      <div class="meta" id="meta">Farobka Radio v2 · мягкий кроссфейд · безопасный эфир</div>
-
-      <div class="controls">
-        <button id="playBtn">▶ Play</button>
-        <button id="nextBtn" class="secondary">⏭ Next</button>
-        <button id="stopBtn" class="secondary">⏹ Stop</button>
-
-        <label class="volume">
-          Громкость
-          <input id="volume" type="range" min="0" max="100" value="80" />
-          <span id="volumeText">80%</span>
-        </label>
-      </div>
-
-      <div class="meters">
-        <div class="meter">
-          <strong>Player A</strong>
-          <div class="bar"><div class="fill" id="barA"></div></div>
-          <div id="infoA">idle</div>
-        </div>
-        <div class="meter">
-          <strong>Player B</strong>
-          <div class="bar"><div class="fill" id="barB"></div></div>
-          <div id="infoB">idle</div>
-        </div>
-      </div>
-
-      <div id="status" class="status">Готовлю эфирный котёл...</div>
-    </section>
-
-    <section class="history">
-      <div class="label">History</div>
-      <ol class="history-list" id="history"></ol>
-    </section>
   </main>
 
   <script>
     const CROSSFADE_SECONDS = 5;
-    const TICK_MS = 120;
-    const RECENT_LIMIT = 8;
+    const RECENT_LIMIT = 10;
+    const TICK_MS = 150;
 
-    let playlist = [];
-    let recentIndexes = [];
-    let historyItems = [];
+    let allTracks = [];
+    let filteredTracks = [];
+    let currentMode = "all";
+    let currentTrack = null;
     let currentIndex = -1;
+    let activeSlot = 0;
     let isPlaying = false;
     let isCrossfading = false;
-    let activeSlot = 0;
-    let tickTimer = null;
+    let recentKeys = [];
+    let history = [];
 
-    const audioA = new Audio();
-    const audioB = new Audio();
-    const players = [audioA, audioB];
-
-    audioA.preload = "auto";
-    audioB.preload = "auto";
+    const players = [new Audio(), new Audio()];
+    players.forEach(player => {
+      player.preload = "auto";
+      player.crossOrigin = "anonymous";
+    });
 
     const el = {
-      title: document.getElementById("title"),
-      artist: document.getElementById("artist"),
-      meta: document.getElementById("meta"),
+      app: document.getElementById("app"),
+      topMeta: document.getElementById("topMeta"),
+      trackTitle: document.getElementById("trackTitle"),
+      trackArtist: document.getElementById("trackArtist"),
+      trackMeta: document.getElementById("trackMeta"),
       playBtn: document.getElementById("playBtn"),
       nextBtn: document.getElementById("nextBtn"),
       stopBtn: document.getElementById("stopBtn"),
       volume: document.getElementById("volume"),
       volumeText: document.getElementById("volumeText"),
       status: document.getElementById("status"),
-      trackCount: document.getElementById("trackCount"),
+      tracksCount: document.getElementById("tracksCount"),
+      modeCount: document.getElementById("modeCount"),
       history: document.getElementById("history"),
-      barA: document.getElementById("barA"),
-      barB: document.getElementById("barB"),
-      infoA: document.getElementById("infoA"),
-      infoB: document.getElementById("infoB"),
+      modes: document.getElementById("modes"),
     };
 
     function setStatus(text, type = "") {
@@ -342,78 +602,27 @@
       let path = String(value || "").trim().replaceAll("\\\\", "/");
 
       if (!path) return "";
-
-      if (path.startsWith("./")) {
-        path = path.slice(2);
-      }
-
-      if (path.startsWith("radio_site/")) {
-        path = path.slice("radio_site/".length);
-      }
-
-      if (path.startsWith("music_safe/")) {
-        return path;
-      }
-
-      if (path.startsWith("http://") || path.startsWith("https://")) {
-        return path;
-      }
-
-      if (path.endsWith(".mp3")) {
-        return "music_safe/" + path;
-      }
+      if (path.startsWith("./")) path = path.slice(2);
+      if (path.startsWith("radio_site/")) path = path.slice("radio_site/".length);
+      if (path.startsWith("http://") || path.startsWith("https://")) return path;
+      if (path.startsWith("music_safe/")) return path;
+      if (path.endsWith(".mp3")) return "music_safe/" + path;
 
       return path;
-    }
-
-    function getTrackUrl(track) {
-      return normalizePath(track.file || track.src || track.url || track.safe_file || "");
-    }
-
-    function cleanTrack(raw) {
-      return {
-        title: raw.title || "Без названия",
-        artist: raw.artist || "Unknown Artist",
-        license: raw.license || "",
-        source: raw.source || "",
-        attribution: raw.attribution || "",
-        mood: raw.mood || "all",
-        url: getTrackUrl(raw),
-      };
-    }
-
-    function isForbidden(track) {
-      const text = [
-        track.title,
-        track.artist,
-        track.license,
-        track.source,
-        track.attribution,
-        track.url,
-      ].join(" ").toLowerCase();
-
-      return [
-        "todo",
-        "needs license",
-        "needs fma",
-        "winter",
-        "зима",
-        "track-004",
-        "noncommercial",
-        "nonderivatives",
-        "all rights reserved",
-      ].some(bad => text.includes(bad));
     }
 
     function flattenTracks(value, out = []) {
       if (Array.isArray(value)) {
         value.forEach(item => flattenTracks(item, out));
-      } else if (value && typeof value === "object") {
+        return out;
+      }
+
+      if (value && typeof value === "object") {
         const keys = Object.keys(value);
         const looksLikeTrack =
           keys.includes("title") &&
           keys.includes("artist") &&
-          ["file", "src", "url", "safe_file"].some(k => keys.includes(k));
+          ["file", "src", "url", "safe_file"].some(key => keys.includes(key));
 
         if (looksLikeTrack) {
           out.push(value);
@@ -425,114 +634,214 @@
       return out;
     }
 
+    function cleanTrack(raw) {
+      const url = normalizePath(raw.file || raw.src || raw.url || raw.safe_file || "");
+      const mood = String(raw.mood || "all").trim().toLowerCase();
+
+      return {
+        key: url || `${raw.artist || ""}-${raw.title || ""}`,
+        title: raw.title || "Без названия",
+        artist: raw.artist || "Unknown Artist",
+        license: raw.license || "",
+        source: raw.source || "",
+        attribution: raw.attribution || "",
+        mood,
+        url,
+      };
+    }
+
+    function isForbidden(track) {
+      const text = [
+        track.key,
+        track.title,
+        track.artist,
+        track.license,
+        track.source,
+        track.attribution,
+        track.mood,
+        track.url,
+      ].join(" ").toLowerCase();
+
+      const badParts = [
+        "todo",
+        "needs license",
+        "needs fma",
+        "needs manual",
+        "winter",
+        "зима",
+        "track-004",
+        "noncommercial",
+        "nonderivatives",
+        "all rights reserved",
+      ];
+
+      if (badParts.some(part => text.includes(part))) return true;
+
+      const license = String(track.license || "").toLowerCase();
+      if (license === "nc" || license === "nd") return true;
+      if (license.includes("cc by-nc") || license.includes("cc by-nd")) return true;
+
+      return false;
+    }
+
+    function trackMatchesMode(track, mode) {
+      if (mode === "all") return true;
+
+      const mood = String(track.mood || "").toLowerCase();
+      const title = String(track.title || "").toLowerCase();
+      const artist = String(track.artist || "").toLowerCase();
+      const bag = `${mood} ${title} ${artist}`;
+
+      if (bag.includes(mode)) return true;
+
+      if (mode === "jazz" && bag.includes("джаз")) return true;
+      if (mode === "morning" && bag.includes("утро")) return true;
+      if (mode === "energy" && (bag.includes("funk") || bag.includes("фанк") || bag.includes("dance") || bag.includes("танц"))) return true;
+      if (mode === "vintage" && (bag.includes("old") || bag.includes("mississippi") || bag.includes("prince") || bag.includes("murray") || bag.includes("silver"))) return true;
+      if (mode === "chill" && (bag.includes("slow") || bag.includes("dream") || bag.includes("тихо"))) return true;
+
+      return false;
+    }
+
+    function applyMode(mode) {
+      currentMode = mode;
+
+      document.querySelectorAll(".mode").forEach(button => {
+        button.classList.toggle("active", button.dataset.mode === mode);
+      });
+
+      filteredTracks = allTracks.filter(track => trackMatchesMode(track, mode));
+
+      if (filteredTracks.length === 0) {
+        filteredTracks = [...allTracks];
+        setStatus(`В режиме ${mode} пока нет треков. Включил общий эфир.`, "bad");
+      } else {
+        setStatus(`Режим ${mode === "all" ? "Все" : mode}: ${filteredTracks.length} треков.`, "ok");
+      }
+
+      el.modeCount.textContent = filteredTracks.length;
+
+      if (isPlaying) {
+        nextTrack(true);
+      }
+    }
+
     function volumeValue() {
       return Number(el.volume.value) / 100;
     }
 
     function applyVolume() {
-      const v = volumeValue();
-      el.volumeText.textContent = Math.round(v * 100) + "%";
+      const volume = volumeValue();
+      el.volumeText.textContent = Math.round(volume * 100) + "%";
 
       if (!isCrossfading) {
-        players[activeSlot].volume = v;
+        players[activeSlot].volume = volume;
         players[1 - activeSlot].volume = 0;
       }
     }
 
-    function pickNextIndex() {
-      if (playlist.length === 0) return -1;
-      if (playlist.length === 1) return 0;
+    function pickTrack() {
+      if (filteredTracks.length === 0) return null;
+      if (filteredTracks.length === 1) return filteredTracks[0];
 
-      const currentArtist = currentIndex >= 0 ? playlist[currentIndex].artist : "";
+      const currentArtist = currentTrack ? currentTrack.artist : "";
 
-      let candidates = playlist
-        .map((track, index) => ({ track, index }))
-        .filter(item => item.index !== currentIndex)
-        .filter(item => !recentIndexes.includes(item.index));
+      let candidates = filteredTracks
+        .filter(track => track.key !== (currentTrack && currentTrack.key))
+        .filter(track => !recentKeys.includes(track.key));
 
-      const differentArtist = candidates.filter(
-        item => item.track.artist !== currentArtist
-      );
-
-      if (differentArtist.length > 0) {
-        candidates = differentArtist;
-      }
+      const differentArtist = candidates.filter(track => track.artist !== currentArtist);
+      if (differentArtist.length > 0) candidates = differentArtist;
 
       if (candidates.length === 0) {
-        candidates = playlist
-          .map((track, index) => ({ track, index }))
-          .filter(item => item.index !== currentIndex);
+        candidates = filteredTracks.filter(track => track.key !== (currentTrack && currentTrack.key));
       }
 
-      const selected = candidates[Math.floor(Math.random() * candidates.length)];
-      return selected.index;
+      return candidates[Math.floor(Math.random() * candidates.length)] || filteredTracks[0];
+    }
+
+    function remember(track) {
+      recentKeys.unshift(track.key);
+      recentKeys = [...new Set(recentKeys)].slice(0, RECENT_LIMIT);
+    }
+
+    function renderTrack(track) {
+      currentTrack = track;
+      currentIndex = filteredTracks.findIndex(item => item.key === track.key);
+
+      el.trackTitle.textContent = track.title;
+      el.trackArtist.textContent = track.artist;
+
+      el.trackMeta.textContent = [
+        track.mood && track.mood !== "all" ? "Mood: " + track.mood : "",
+        track.license ? "License: " + track.license : "",
+        "Crossfade: " + CROSSFADE_SECONDS + "s",
+      ].filter(Boolean).join(" · ");
     }
 
     function pushHistory(track) {
-      historyItems.unshift(`${track.artist} — ${track.title}`);
-      historyItems = historyItems.slice(0, 10);
+      history.unshift(track);
+      history = history.slice(0, 12);
 
       el.history.innerHTML = "";
-      historyItems.forEach(item => {
+
+      history.forEach(item => {
         const li = document.createElement("li");
-        li.textContent = item;
+
+        const title = document.createElement("div");
+        title.className = "history-title";
+        title.textContent = item.title;
+
+        const artist = document.createElement("div");
+        artist.className = "history-artist";
+        artist.textContent = item.artist;
+
+        li.appendChild(title);
+        li.appendChild(artist);
         el.history.appendChild(li);
       });
     }
 
-    function rememberIndex(index) {
-      recentIndexes.unshift(index);
-      recentIndexes = [...new Set(recentIndexes)].slice(0, RECENT_LIMIT);
-    }
+    async function startTrack(track, slot = activeSlot) {
+      if (!track) return;
 
-    function renderNow(track) {
-      el.title.textContent = track.title;
-      el.artist.textContent = track.artist;
-      el.meta.textContent = [
-        track.mood ? "Mood: " + track.mood : "",
-        track.license ? "License: " + track.license : "",
-      ].filter(Boolean).join(" · ");
-    }
-
-    async function startTrack(index, slot = activeSlot) {
-      if (index < 0 || index >= playlist.length) return;
-
-      const track = playlist[index];
       const player = players[slot];
+      const other = players[1 - slot];
 
-      currentIndex = index;
-      activeSlot = slot;
+      other.pause();
+      other.volume = 0;
 
       player.src = track.url;
       player.currentTime = 0;
       player.volume = volumeValue();
 
-      players[1 - slot].pause();
-      players[1 - slot].volume = 0;
-
-      renderNow(track);
-      rememberIndex(index);
+      renderTrack(track);
+      remember(track);
       pushHistory(track);
 
       await player.play();
 
+      activeSlot = slot;
       isPlaying = true;
+      isCrossfading = false;
+      el.app.classList.add("playing");
       el.playBtn.textContent = "⏸ Pause";
-      setStatus("Играет. Кроссфейд включится за 5 секунд до конца.", "ok");
+      setStatus("Играет. За 5 секунд до конца включится мягкий переход.", "ok");
     }
 
     async function play() {
-      if (playlist.length === 0) return;
+      if (filteredTracks.length === 0) return;
 
       const player = players[activeSlot];
 
-      if (currentIndex === -1 || !player.src) {
-        await startTrack(pickNextIndex(), activeSlot);
+      if (!currentTrack || !player.src) {
+        await startTrack(pickTrack(), activeSlot);
         return;
       }
 
       await player.play();
       isPlaying = true;
+      el.app.classList.add("playing");
       el.playBtn.textContent = "⏸ Pause";
       setStatus("Продолжаю эфир.", "ok");
     }
@@ -540,6 +849,7 @@
     function pause() {
       players.forEach(player => player.pause());
       isPlaying = false;
+      el.app.classList.remove("playing");
       el.playBtn.textContent = "▶ Play";
       setStatus("Пауза.");
     }
@@ -553,165 +863,142 @@
 
       isPlaying = false;
       isCrossfading = false;
+      currentTrack = null;
       currentIndex = -1;
+
+      el.app.classList.remove("playing");
       el.playBtn.textContent = "▶ Play";
-      el.title.textContent = "Не играет";
-      el.artist.textContent = "Нажми Play";
-      el.meta.textContent = "Farobka Radio v2 · мягкий кроссфейд · безопасный эфир";
+      el.trackTitle.textContent = "Не играет";
+      el.trackArtist.textContent = "Нажми Play";
+      el.trackMeta.textContent = "Farobka Radio v2 · кофейный тёмный эфир · без лицензионной хуйни.";
       setStatus("Остановлено.");
     }
 
-    async function nextManual() {
-      if (playlist.length === 0) return;
-      await crossfadeToNext(true);
-    }
+    function fadeStep(fromPlayer, toPlayer, startedAt, durationMs) {
+      const progress = Math.min(1, (Date.now() - startedAt) / durationMs);
+      const volume = volumeValue();
 
-    function fadeStep(fromPlayer, toPlayer, startTime, durationMs) {
-      const elapsed = Date.now() - startTime;
-      const progress = Math.min(1, elapsed / durationMs);
-      const v = volumeValue();
-
-      fromPlayer.volume = Math.max(0, v * (1 - progress));
-      toPlayer.volume = Math.min(v, v * progress);
+      fromPlayer.volume = Math.max(0, volume * (1 - progress));
+      toPlayer.volume = Math.min(volume, volume * progress);
 
       if (progress < 1 && isCrossfading) {
-        requestAnimationFrame(() => fadeStep(fromPlayer, toPlayer, startTime, durationMs));
-      } else {
-        fromPlayer.pause();
-        fromPlayer.currentTime = 0;
-        fromPlayer.volume = 0;
-        toPlayer.volume = v;
-        isCrossfading = false;
-        activeSlot = players.indexOf(toPlayer);
-        setStatus("Кроссфейд завершён. Эфир летит мягко.", "ok");
+        requestAnimationFrame(() => fadeStep(fromPlayer, toPlayer, startedAt, durationMs));
+        return;
       }
+
+      fromPlayer.pause();
+      fromPlayer.currentTime = 0;
+      fromPlayer.volume = 0;
+      toPlayer.volume = volume;
+
+      activeSlot = players.indexOf(toPlayer);
+      isCrossfading = false;
+      setStatus("Кроссфейд завершён. Эфир мягкий, как молочная пена.", "ok");
     }
 
-    async function crossfadeToNext(manual = false) {
-      if (isCrossfading || playlist.length === 0) return;
+    async function nextTrack(manual = false) {
+      if (filteredTracks.length === 0 || isCrossfading) return;
+
+      const next = pickTrack();
+      if (!next) return;
 
       const fromSlot = activeSlot;
       const toSlot = 1 - activeSlot;
       const fromPlayer = players[fromSlot];
       const toPlayer = players[toSlot];
-      const nextIndex = pickNextIndex();
 
-      if (nextIndex < 0) return;
-
-      const nextTrack = playlist[nextIndex];
-
-      isCrossfading = true;
-      currentIndex = nextIndex;
-
-      toPlayer.src = nextTrack.url;
-      toPlayer.currentTime = 0;
-      toPlayer.volume = 0;
-
-      renderNow(nextTrack);
-      rememberIndex(nextIndex);
-      pushHistory(nextTrack);
-
-      try {
-        await toPlayer.play();
-      } catch (e) {
-        isCrossfading = false;
-        setStatus("Ошибка запуска следующего трека: " + e.message, "bad");
+      if (!isPlaying || !fromPlayer.src || fromPlayer.paused) {
+        await startTrack(next, activeSlot);
         return;
       }
 
-      isPlaying = true;
-      el.playBtn.textContent = "⏸ Pause";
+      isCrossfading = true;
 
-      setStatus(
-        manual
-          ? "Ручной Next: делаю плавный переход."
-          : "Автокроссфейд: следующий трек уже входит в эфир.",
-        "ok"
-      );
+      toPlayer.src = next.url;
+      toPlayer.currentTime = 0;
+      toPlayer.volume = 0;
 
+      renderTrack(next);
+      remember(next);
+      pushHistory(next);
+
+      try {
+        await toPlayer.play();
+      } catch (error) {
+        isCrossfading = false;
+        setStatus("Ошибка запуска следующего трека: " + error.message, "bad");
+        return;
+      }
+
+      setStatus(manual ? "Ручной Next: делаю плавный переход." : "Автокроссфейд: следующий трек входит в эфир.", "ok");
       fadeStep(fromPlayer, toPlayer, Date.now(), CROSSFADE_SECONDS * 1000);
     }
 
-    function updateMeters() {
-      const a = audioA;
-      const b = audioB;
-
-      const percentA = a.duration ? (a.currentTime / a.duration) * 100 : 0;
-      const percentB = b.duration ? (b.currentTime / b.duration) * 100 : 0;
-
-      el.barA.style.width = Math.max(0, Math.min(100, percentA)) + "%";
-      el.barB.style.width = Math.max(0, Math.min(100, percentB)) + "%";
-
-      el.infoA.textContent = a.src ? `${a.paused ? "paused" : "playing"} · vol ${Math.round(a.volume * 100)}%` : "idle";
-      el.infoB.textContent = b.src ? `${b.paused ? "paused" : "playing"} · vol ${Math.round(b.volume * 100)}%` : "idle";
-    }
-
     function tick() {
-      updateMeters();
+      if (!isPlaying || isCrossfading) return;
 
-      if (isPlaying && !isCrossfading) {
-        const player = players[activeSlot];
+      const player = players[activeSlot];
 
-        if (player.duration && Number.isFinite(player.duration)) {
-          const left = player.duration - player.currentTime;
+      if (!player.duration || !Number.isFinite(player.duration)) return;
 
-          if (left <= CROSSFADE_SECONDS && left > 0.3) {
-            crossfadeToNext(false);
-          }
-        }
+      const left = player.duration - player.currentTime;
+
+      if (left <= CROSSFADE_SECONDS && left > 0.3) {
+        nextTrack(false);
       }
     }
 
     async function loadPlaylist() {
       try {
         const response = await fetch("playlist.json?cache=" + Date.now());
-
-        if (!response.ok) {
-          throw new Error("playlist.json HTTP " + response.status);
-        }
+        if (!response.ok) throw new Error("playlist.json HTTP " + response.status);
 
         const data = await response.json();
-        const rawTracks = flattenTracks(data);
+        const raw = flattenTracks(data);
 
-        playlist = rawTracks
+        allTracks = raw
           .map(cleanTrack)
           .filter(track => track.url)
           .filter(track => !isForbidden(track));
 
-        el.trackCount.textContent = playlist.length + " треков в эфире";
+        filteredTracks = [...allTracks];
 
-        if (playlist.length === 0) {
-          setStatus("В playlist.json нет безопасных треков для эфира.", "bad");
+        el.tracksCount.textContent = allTracks.length;
+        el.modeCount.textContent = filteredTracks.length;
+        el.topMeta.textContent = `${allTracks.length} безопасных треков · smart shuffle · crossfade ${CROSSFADE_SECONDS}s`;
+
+        if (allTracks.length === 0) {
           el.playBtn.disabled = true;
           el.nextBtn.disabled = true;
+          setStatus("В playlist.json нет безопасных треков для эфира.", "bad");
           return;
         }
 
-        setStatus("Плейлист загружен. Можно тестировать кроссфейд.", "ok");
-      } catch (e) {
-        setStatus("Ошибка загрузки playlist.json: " + e.message, "bad");
+        setStatus("Плейлист загружен. Радио готово.", "ok");
+      } catch (error) {
         el.playBtn.disabled = true;
         el.nextBtn.disabled = true;
+        setStatus("Ошибка загрузки playlist.json: " + error.message, "bad");
       }
     }
 
     el.playBtn.addEventListener("click", async () => {
-      if (isPlaying) {
-        pause();
-      } else {
-        try {
+      try {
+        if (isPlaying) {
+          pause();
+        } else {
           await play();
-        } catch (e) {
-          setStatus("Ошибка Play: " + e.message, "bad");
         }
+      } catch (error) {
+        setStatus("Ошибка Play: " + error.message, "bad");
       }
     });
 
     el.nextBtn.addEventListener("click", async () => {
       try {
-        await nextManual();
-      } catch (e) {
-        setStatus("Ошибка Next: " + e.message, "bad");
+        await nextTrack(true);
+      } catch (error) {
+        setStatus("Ошибка Next: " + error.message, "bad");
       }
     });
 
@@ -719,22 +1006,25 @@
 
     el.volume.addEventListener("input", applyVolume);
 
+    el.modes.addEventListener("click", event => {
+      const button = event.target.closest("[data-mode]");
+      if (!button) return;
+      applyMode(button.dataset.mode);
+    });
+
     players.forEach(player => {
       player.addEventListener("ended", () => {
-        if (isPlaying && !isCrossfading) {
-          crossfadeToNext(false);
-        }
+        if (isPlaying && !isCrossfading) nextTrack(false);
       });
 
       player.addEventListener("error", () => {
-        setStatus("Ошибка аудио. Жми Next.", "bad");
+        setStatus("Ошибка аудио. Нажми Next или проверь файл трека.", "bad");
       });
     });
 
     applyVolume();
     loadPlaylist();
-    tickTimer = setInterval(tick, TICK_MS);
+    setInterval(tick, TICK_MS);
   </script>
 </body>
 </html>
-
