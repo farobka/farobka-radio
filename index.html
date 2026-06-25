@@ -566,6 +566,7 @@
     let activeSlot = 0;
     let isPlaying = false;
     let isCrossfading = false;
+    let fadeTimer = null;
     let recentKeys = [];
     let history = [];
 
@@ -847,14 +848,25 @@
     }
 
     function pause() {
+      if (fadeTimer) {
+        clearInterval(fadeTimer);
+        fadeTimer = null;
+      }
+
       players.forEach(player => player.pause());
       isPlaying = false;
+      isCrossfading = false;
       el.app.classList.remove("playing");
       el.playBtn.textContent = "▶ Play";
       setStatus("Пауза.");
     }
 
     function stop() {
+      if (fadeTimer) {
+        clearInterval(fadeTimer);
+        fadeTimer = null;
+      }
+
       players.forEach(player => {
         player.pause();
         player.currentTime = 0;
@@ -874,27 +886,74 @@
       setStatus("Остановлено.");
     }
 
-    function fadeStep(fromPlayer, toPlayer, startedAt, durationMs) {
-      const progress = Math.min(1, (Date.now() - startedAt) / durationMs);
-      const volume = volumeValue();
-
-      fromPlayer.volume = Math.max(0, volume * (1 - progress));
-      toPlayer.volume = Math.min(volume, volume * progress);
-
-      if (progress < 1 && isCrossfading) {
-        requestAnimationFrame(() => fadeStep(fromPlayer, toPlayer, startedAt, durationMs));
-        return;
+    function finishCrossfade(fromPlayer, toPlayer, message = "Кроссфейд завершён. Эфир мягкий, как молочная пена.") {
+      if (fadeTimer) {
+        clearInterval(fadeTimer);
+        fadeTimer = null;
       }
 
       fromPlayer.pause();
       fromPlayer.currentTime = 0;
       fromPlayer.volume = 0;
-      toPlayer.volume = volume;
 
+      toPlayer.volume = volumeValue();
       activeSlot = players.indexOf(toPlayer);
       isCrossfading = false;
-      setStatus("Кроссфейд завершён. Эфир мягкий, как молочная пена.", "ok");
+
+      setStatus(message, "ok");
     }
+
+    function fadeStep(fromPlayer, toPlayer, startedAt, durationMs) {
+      if (fadeTimer) {
+        clearInterval(fadeTimer);
+        fadeTimer = null;
+      }
+
+      const tickFade = () => {
+        if (!isCrossfading) {
+          if (fadeTimer) {
+            clearInterval(fadeTimer);
+            fadeTimer = null;
+          }
+          return;
+        }
+
+        if (document.hidden) {
+          finishCrossfade(
+            fromPlayer,
+            toPlayer,
+            "Окно в фоне: завершил переход сразу, чтобы не было тишины."
+          );
+          return;
+        }
+
+        const progress = Math.min(1, (Date.now() - startedAt) / durationMs);
+        const volume = volumeValue();
+
+        fromPlayer.volume = Math.max(0, volume * (1 - progress));
+        toPlayer.volume = Math.min(volume, volume * progress);
+
+        if (progress >= 1) {
+          finishCrossfade(fromPlayer, toPlayer);
+        }
+      };
+
+      tickFade();
+      fadeTimer = setInterval(tickFade, 100);
+    }
+
+    document.addEventListener("visibilitychange", () => {
+      if (!document.hidden || !isCrossfading) return;
+
+      const fromPlayer = players[activeSlot];
+      const toPlayer = players[1 - activeSlot];
+
+      finishCrossfade(
+        fromPlayer,
+        toPlayer,
+        "Окно ушло в фон: завершил кроссфейд без тишины."
+      );
+    });
 
     async function nextTrack(manual = false) {
       if (filteredTracks.length === 0 || isCrossfading) return;
@@ -927,6 +986,19 @@
       } catch (error) {
         isCrossfading = false;
         setStatus("Ошибка запуска следующего трека: " + error.message, "bad");
+        return;
+      }
+
+      if (document.hidden) {
+        fromPlayer.pause();
+        fromPlayer.currentTime = 0;
+        fromPlayer.volume = 0;
+
+        toPlayer.volume = volumeValue();
+        activeSlot = toSlot;
+        isCrossfading = false;
+
+        setStatus("Окно в фоне: переключил трек без плавной анимации, чтобы звук не пропадал.", "ok");
         return;
       }
 
