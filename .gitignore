@@ -1,0 +1,18 @@
+# Local backups
+*.bak-*
+index_before_crossfade.html
+crossfade_test.html
+
+# Loudness / normalization local files
+loudness_report.csv
+normalization_preview_report.csv
+music_safe_normalized_preview/
+backups/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS junk
+.DS_Store
+Thumbs.db
